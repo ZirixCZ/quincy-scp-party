@@ -1,0 +1,209 @@
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    img {
+        width: 100px;
+        height: 100px;
+    }
+    header h1 {
+        font-size: 28px;
+    }
+    #header-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #img-bear {
+        width: 100px;
+        height: 100px;
+    }
+    #block h2 {
+        width: 80%;
+        padding: 20px;
+    }
+    #block {
+        height: 65vh;
+    }
+    #block1 h2 {
+        width: 80%;
+        padding: 20px;
+    }
+    #block1 {
+        height: 80vh;
+    }
+
+    #question {
+        height: 50vh;
+    }
+    .que-container h2 {
+        width: 60%;
+    }
+    #partners {
+        height: 255vh;
+        text-align: center;
+    }
+    .twitch-partner iframe {
+        height: 40vh;
+        width: 40vh;
+        padding-left: 15px;
+    }
+    .partners-container h2 {
+        padding-top: 350px;
+        padding-left: 0px;
+    }
+    .partners-container {
+        justify-content: center;
+        width: 100%;
+    }
+    .twitch-partner {
+        padding-bottom: 400px;
+    }
+
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    #block {
+        height: 60vh;
+    }
+    #block1 {
+        height: 60vh;
+    }
+    .que-container h2 {
+        width: 55%;
+    }
+    #partners {
+        height: 255vh;
+        text-align: center;
+    }
+    .twitch-partner iframe {
+        height: 40vh;
+        width: 50vh;
+        padding-left: 0px;
+    }
+    .partners-container h2 {
+        padding-top: 350px;
+        padding-left: 0px;
+    }
+    .partners-container {
+        justify-content: center;
+        width: 100%;
+    }
+    .twitch-partner {
+        padding-bottom: 400px;
+    }
+}
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    #block {
+        height: 45vh;
+    }
+    #block1 {
+        height: 40vh;
+    }
+    .que-container h2 {
+        width: 55%;
+    }
+    #question {
+        height: 40vh;
+    }
+    #partners {
+        height: 225vh;
+        text-align: center;
+    }
+    .twitch-partner iframe {
+        height: 40vh;
+        width: 40vh;
+        padding-left: 0px;
+    }
+    .partners-container h2 {
+        padding-top: 450px;
+        padding-left: 0px;
+    }
+    .partners-container {
+        justify-content: center;
+        width: 100%;
+    }
+    .twitch-partner {
+        padding-bottom: 400px;
+    }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #block h2 {
+        font-size: 22px;
+    }
+    #block1 h2 {
+        font-size: 22px;
+    }
+    #img-bear {
+        margin-top: 100px;
+    }
+    #partners {
+        height: 220vh;
+        text-align: center;
+    }
+    .twitch-partner iframe {
+        height: 40vh;
+        width: 60vh;
+        padding-left: 0px;
+    }
+    .partners-container h2 {
+        padding-top: 700px;
+        padding-left: 0px;
+    }
+    .partners-container {
+        justify-content: center;
+        width: 100%;
+    }
+    .twitch-partner {
+        padding-bottom: 400px;
+    }
+}
+@media screen and (min-width: 2200px) {
+    #block h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    #block1 h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    #block {
+        height: 40vh;
+    }
+    #block1 {
+        height: 45vh;
+    }
+    #question {
+        height: 25vh;
+    }
+    .que-container h2 {
+        font-size: 42px;
+    }
+    .p-container p {
+        font-size: 22px;
+    }
+    footer h4 {
+        font-size: 16px;
+    }
+    .partners-container {
+        width: 50vh;
+    }
+}
